@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #1d1d1b;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    max-width: 100px;
+}
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+}
+.navigation li a {
+    position: relative;
+    color: white;
+    text-decoration: 0;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-right: 200px;
+}
+.content .text{
+    width: 100%;
+    max-width: 600px;
+
+}
+.content .text h2{
+    color: red;
+    font-size: 4rem;
+    font-weight: 300;
+}
+.content .text h2 span{
+    font-weight: bold;
+    color: green;
+}
+.content .text p{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    margin: 20px 0;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: white;
+    color: red;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 45px;
+}
+.btn:hover{
+    letter-spacing: 2px;
+}
+.slider{
+    position: relative;
+}
+.slides {
+    display: none;
+}
+.affiche{
+    display: block;
+    margin-top: 85px;
+}
+.slides img{
+    width: 100%;
+    max-width: 300px;
+}
